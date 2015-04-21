@@ -12,7 +12,7 @@ tags:
 ---
 <div class="alert-box alert radius">WARNING: If you use breadcrumbs be aware, that if you use categories, you need pages for those categories. If not, the link in the breadcrumb won't work.</div>
 
-```ruby
+{% highlight ruby %}
 def show
   @widget = Widget(params[:id])
   respond_to do |format|
@@ -20,7 +20,7 @@ def show
     format.json { render json: @widget }
   end
 end
-```
+{% endhighlight %}
 
 ## Front Matter Code
 ~~~
