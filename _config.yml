@@ -57,6 +57,8 @@ excerpt_separator: "\n\n"
 exclude: []
 include: ['.htaccess']
 
+kramdown:
+  input: GFM
 
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
