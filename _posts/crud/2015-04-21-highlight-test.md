@@ -22,6 +22,18 @@ def show
 end
 {% endhighlight %}
 
+```arduino
+
+void setup()
+{
+}
+
+void loop()
+{
+}
+```
+
+
 ## Front Matter Code
 ~~~
 breadcrumb: true
