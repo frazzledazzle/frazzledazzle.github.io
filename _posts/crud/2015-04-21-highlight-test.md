@@ -22,7 +22,7 @@ def show
 end
 {% endhighlight %}
 
-```arduino
+~~~arduino
 
 void setup()
 {
@@ -31,7 +31,7 @@ void setup()
 void loop()
 {
 }
-```
+~~~
 
 
 ## Front Matter Code
