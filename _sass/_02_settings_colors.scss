@@ -81,29 +81,29 @@ $grey-16: #0B0B0B;
 
 $topbar-bg-color: #fff;
 
-$topbar-dropdown-toggle-color: $ci-1;
+$topbar-dropdown-toggle-color: $grey-1; //$ci-1;
 
 $topbar-link-color: #000;
-$topbar-link-color-hover: #000;
-$topbar-link-color-active: #000;
-$topbar-link-color-active-hover: #000;
+$topbar-link-color-hover: $grey-2; //#000;
+$topbar-link-color-active: $grey-3; //#000;
+$topbar-link-color-active-hover: $grey-4; //#000;
 
-$topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-1;
+$topbar-dropdown-label-color: $grey-5; //$ci-2;
+$topbar-dropdown-link-bg-hover: $grey-6; //$ci-1;
 
-$topbar-link-bg-active: $ci-1; // Active Navigation Link
-$topbar-link-bg-hover: $ci-1;
-$topbar-link-bg-active-hover: $ci-2;
+$topbar-link-bg-active: $grey-7; //$ci-1; // Active Navigation Link
+$topbar-link-bg-hover: $grey-8; //$ci-1;
+$topbar-link-bg-active-hover: $grey-9; //$ci-2;
 
 
-$topbar-dropdown-bg: $ci-1; // Background Mobile Navigation
-$topbar-dropdown-link-color: #000;
-$topbar-dropdown-link-bg: $ci-2;
+$topbar-dropdown-bg: $grey-10; //$ci-1; // Background Mobile Navigation
+$topbar-dropdown-link-color: $grey-11; //#000;
+$topbar-dropdown-link-bg: $grey-12; //$ci-2;
 
-$topbar-menu-link-color-toggled: $ci-1;
-$topbar-menu-icon-color-toggled: $ci-1;
-$topbar-menu-link-color: #000;
-$topbar-menu-icon-color: #000;
+$topbar-menu-link-color-toggled: $grey-13; //$ci-1;
+$topbar-menu-icon-color-toggled: $grey-14; //$ci-1;
+$topbar-menu-link-color: $grey-15; //#000;
+$topbar-menu-icon-color: $grey-16; //#000;
 //$topbar-menu-link-color-toggled: $ci-6;
 //$topbar-menu-icon-color-toggled: $ci-6;
 
