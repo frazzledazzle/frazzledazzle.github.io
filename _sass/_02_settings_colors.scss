@@ -79,31 +79,31 @@ $grey-16: #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: #fff;
+$topbar-bg-color: #888;                          // UNUSED
+$topbar-dropdown-toggle-color: #000;             // UNUSED
 
-$topbar-dropdown-toggle-color: $grey-1; //$ci-1;
+$topbar-link-color: #000;                        // Top level menu item, text color
+$topbar-link-color-hover: #fff;                  // Top level menu item, text color, hover
 
-$topbar-link-color: #000;
-$topbar-link-color-hover: $grey-2; //#000;
-$topbar-link-color-active: $grey-3; //#000;
-$topbar-link-color-active-hover: $grey-4; //#000;
+$topbar-link-color-active: #000;                 // Top level menu item, text color, active
+$topbar-link-color-active-hover: #000;           // Top level menu item, text color, active, hover
 
-$topbar-dropdown-label-color: $grey-5; //$ci-2;
-$topbar-dropdown-link-bg-hover: $grey-6; //$ci-1;
+$topbar-dropdown-label-color: #000;              // label? - couldn't find it being used (it is in css, however)
+$topbar-dropdown-link-bg-hover: $ci-1;           // Sub menu, hover
 
-$topbar-link-bg-active: $grey-7; //$ci-1; // Active Navigation Link
-$topbar-link-bg-hover: $grey-8; //$ci-1;
-$topbar-link-bg-active-hover: $grey-9; //$ci-2;
+$topbar-link-bg-active: $ci-1;                   // Top level menu item bg color, active
+$topbar-link-bg-hover: $ci-1;                    // Top level menu item bg color, hover
+$topbar-link-bg-active-hover: $ci-2;             // Top level menu item bg color, active, hover
 
 
-$topbar-dropdown-bg: $grey-10; //$ci-1; // Background Mobile Navigation
-$topbar-dropdown-link-color: $grey-11; //#000;
-$topbar-dropdown-link-bg: $grey-12; //$ci-2;
+$topbar-dropdown-bg: $ci-6;                      // Background color for all menu items
+$topbar-dropdown-link-color: #000;               // Text color for all sub menu items
+$topbar-dropdown-link-bg: $ci-6;                 // Background for all sub menu items
 
-$topbar-menu-link-color-toggled: $grey-13; //$ci-1;
-$topbar-menu-icon-color-toggled: $grey-14; //$ci-1;
-$topbar-menu-link-color: $grey-15; //#000;
-$topbar-menu-icon-color: $grey-16; //#000;
+$topbar-menu-link-color-toggled: $ci-4;          // "Navigation" link text color (on)
+$topbar-menu-icon-color-toggled: $ci-4;          // navigation icon color (on)
+$topbar-menu-link-color: #000;                   // "Navigation" link text color, (off)
+$topbar-menu-icon-color: #000;                   // navigation icon color, (off)
 //$topbar-menu-link-color-toggled: $ci-6;
 //$topbar-menu-icon-color-toggled: $ci-6;
 
